@@ -1,4 +1,4 @@
 ARG version
 FROM  almalinux:${version}
-RUN cat /ect/*release
+RUN cat /etc/*release
 CMD [ "slepp", "60" ]
